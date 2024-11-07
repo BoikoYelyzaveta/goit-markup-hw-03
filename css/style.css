@@ -12,7 +12,7 @@
 .header {
     border-bottom: 1px solid #e7e9fc; }
 
-.container-header {
+.container{
     display: flex;
     width: 1158px; 
     margin: 0 auto;
@@ -83,7 +83,7 @@
     background-color: #2E2F42;
     padding: 188px 0; }
 
-.container-hero {
+.container{
 
 }
 .hero-title {
@@ -131,7 +131,7 @@
 .benefits {
     padding: 120px 0;
 }
-.container-benefits {
+.container {
 }
 .benefits-title {
     color: #2e2f42;
@@ -190,7 +190,7 @@
     background-color: #F4F4FD;
     padding: 120px 0; }
 
-.container-teams {
+.container {
 }
 .teams-title {
     color: #2e2f42;
@@ -319,7 +319,7 @@
     padding: 100px 0;
 }
 
-.container-footer {
+.container {
   
 }
 .logo-main {
