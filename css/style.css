@@ -37,10 +37,11 @@
 
 .header-list { 
     display: flex;
-    gap: 40px; }
+    gap: 40px;
+    padding: 24px 0; }
 
 .header-item {
-    padding: 24px 0 24px 0; }
+    
 
 .nav-link {
     color: #2e2f42;
