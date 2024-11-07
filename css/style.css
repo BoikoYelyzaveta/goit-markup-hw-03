@@ -245,7 +245,10 @@
     flex-wrap: wrap; 
     row-gap: 48px;  
     column-gap: 24px; 
+    
     padding: 0;
+    margin: 0;
+    list-style-type: none;
  }
 .portfolio-item {
     width: calc((100% - 48px) / 3); }
