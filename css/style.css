@@ -18,6 +18,7 @@
     width: 100%;
     margin: 0 auto;
     padding: 0 15px;
+    align-items: center;
 }
 
 .logo-nav {
@@ -40,7 +41,12 @@
 .header-list{
     display: flex;
     gap: 40px;
-    padding: 24px 0;
+}
+.header-item {
+    margin-right: 40px;}
+
+.header-item:last-child {
+    margin-right: 0;
 }
 .dark {
     color:#2e2f42;
@@ -52,6 +58,7 @@
     line-height: 1.5;
     font-size: 16px;
     font-weight: 500;
+    padding: 24px 0;
 }
 .nav-link:hover,
 .nav-link:focus {
@@ -140,6 +147,7 @@
     clip: rect(0, 0, 0, 0);
     overflow: hidden;
 }
+
 
 .benefits-title {
     margin-bottom: 8px; 
@@ -268,7 +276,7 @@
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    margin-bottom: 8px 
+    margin-bottom: 8px;
 }
 .portfolio-text {
     color: #434455;
