@@ -38,9 +38,12 @@
 .header-list { 
     display: flex;
     gap: 40px;
-    padding: 24px 0; }
+     }
 
-.header-item {
+        .header-item {
+            padding-top: 24px; 
+            padding-bottom: 24px;
+        }
     
 
 .nav-link {
@@ -248,6 +251,8 @@
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+
+    padding: 0%;
 
 }
 .portfolio-item {
