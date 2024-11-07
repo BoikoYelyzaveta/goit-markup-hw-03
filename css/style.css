@@ -8,6 +8,21 @@
 }
 
 /* header */
+.header{
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.conteiner-header{
+    display: flex;
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.logo-nav {
+    display: flex;
+    align-items: center;
+}
 
 .logo-main {
     color: #4d5ae5;
@@ -18,6 +33,13 @@
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-right: 76px;
+}
+
+.header-list{
+    display: flex;
+    gap: 40px;
+    padding: 24px 0;
 }
 .dark {
     color:#2e2f42;
@@ -38,6 +60,10 @@
     font-style: normal;
 }
 
+.address-list {
+    display: flex;
+    gap: 40px;
+}
 .contact-link {
     font-size: 16px;
     line-height: 1.5;
@@ -208,8 +234,6 @@
     border: 1px solid #e7e9fc;
     border-top: none;
     margin-bottom: 8px;
-
-
 }
 .portfolio-title {
     color: #2e2f42;
@@ -220,19 +244,6 @@
     font-size: 36px;  
     margin-bottom: 72px; 
 }
-.portfolio-caption {
-    color: #2E2F42;
-    letter-spacing: 0.02em;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-}
-.portfolio-text {
-    color: #434455;
-    letter-spacing: 0.02em;
-    line-height: 1.5;
-    font-size: 16px;
-}
 .portfolio-list{
     display: flex;
     flex-wrap: wrap; 
@@ -240,9 +251,30 @@
     row-gap: 48px; 
 }
 .portfolio-item{
-    border:1px solid #E7E9FC ;
     width: calc((100% - 48px) / 3); 
+    border:1px solid #E7E9FC ;
 }
+.conteiner1{
+    padding: 32px 16px ;
+    border: 1px solid #e7e9fc; 
+    border-top: none; 
+}
+.portfolio-caption {
+    color: #2E2F42;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    margin-bottom: 8px 
+}
+.portfolio-text {
+    color: #434455;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+
 
 
 /* footer */
@@ -252,8 +284,7 @@
     color: #F4F4FD;
     font-family: "Raleway", sans-serif;
     letter-spacing: 0.02em;
-    padding-top: 100px;
-    padding-bottom: 0;
+    padding: 100px 0;
 }
 
 .logo-main {
@@ -279,4 +310,6 @@
     max-width: 264px
 }
 
- 
+img {
+    display: block;
+}
