@@ -281,7 +281,7 @@
 }
 .footer .logo-main {
     
-    margin-bottom: 16px;
+  
 }
 .logo-main {
      color: #4d5ae5;
@@ -293,7 +293,8 @@
      letter-spacing: 0.03em;
      text-transform: uppercase;
      display: inline-block;
-     margin-bottom: 16px;  
+     margin-bottom: 16px;
+      
 }
     .light {
         color: #f4f4fd;
