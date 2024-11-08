@@ -65,10 +65,8 @@
     display: flex;
     gap: 40px; }
 
-.header-item , .logo-nav{
-    padding-top: 24px; 
-    padding-bottom: 24px;
-    margin-bottom: 0;
+.header-item {
+    padding: 24px 0 !important;
  }
 
 .nav-link {
@@ -417,6 +415,7 @@ address {
     font-family: inherit;
   }
 
-  .container .logo-main {
-    margin-bottom: 0;
+  .logo-main {
+    margin-bottom: 0 !important;
 }
+
