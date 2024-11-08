@@ -16,13 +16,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+  
     
 }
 .header-container {
     display: flex;
     align-items: center;
-margin-bottom: 0;}
+    
+}
     
 .container { 
     width: 1158px; 
@@ -32,6 +33,7 @@ margin-bottom: 0;}
     justify-content: space-between;
     align-items: center;
     
+    
 }
 
 .logo-nav {
@@ -40,7 +42,7 @@ margin-bottom: 0;}
     
   margin-right: 90px;
   flex-grow: 12;
-  
+ 
 }
 
 .logo-main {
@@ -63,8 +65,10 @@ margin-bottom: 0;}
     display: flex;
     gap: 40px; }
 
-.header-item {
-    padding: 24px 0;
+.header-item , .logo-nav{
+    padding-top: 24px; 
+    padding-bottom: 24px;
+    margin-bottom: 0;
  }
 
 .nav-link {
