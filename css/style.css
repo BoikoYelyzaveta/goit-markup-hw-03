@@ -16,14 +16,12 @@ h3,
 h4,
 h5,
 h6 {
-  margin-top: 0;
-  margin-bottom: 0;
-}
+  margin: 0;}
+  
     ul {
         list-style: none;
-        margin-top: 0;
-        margin-bottom: 0;
-        padding-left: 0;
+        margin: 0; 
+        padding: 0;
       }
       
  
@@ -62,7 +60,7 @@ address {
 
 .logo-nav {
     display: flex;
-     
+    align-items: center; 
     }
 
 .logo-main {
@@ -80,8 +78,7 @@ address {
 
 .header-list { 
     display: flex;
-    gap: 40px;
-    padding: 24px 0; }
+    gap: 40px; }
 
 .header-item {
     padding: 24px 0;
