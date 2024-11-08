@@ -9,20 +9,23 @@
 
 
 
-h1,h2,h3,p {
-    margin:0;
-    }
-
-ul{
-    list-style-type: none;
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
 }
-
-ul,
-li {
-  margin: 0;
-  padding-left: 0;
-}
-
+    ul {
+        list-style: none;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-left: 0;
+      }
+      
  
 img{
     display:block;
@@ -33,7 +36,14 @@ img{
 a {
     text-decoration: none;
 }
-
+address {
+    font-style: normal;
+  }
+  
+  button {
+    font-family: inherit;
+  }
+  
 
 
 
@@ -45,7 +55,7 @@ a {
     border-bottom: 1px solid #e7e9fc; }
 
 .container{
-    
+    display: flex; 
     max-width: 1158px;
     margin: 0 auto;
     padding: 0 15px; }
