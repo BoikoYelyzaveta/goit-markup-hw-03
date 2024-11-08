@@ -61,8 +61,8 @@ address {
     padding: 0 15px; }
 
 .logo-nav {
-     display: flex; 
-     align-items: center; 
+    display: flex;
+     
     }
 
 .logo-main {
@@ -80,7 +80,8 @@ address {
 
 .header-list { 
     display: flex;
-    gap: 40px; }
+    gap: 40px;
+    padding: 24px 0; }
 
 .header-item {
     padding: 24px 0;
