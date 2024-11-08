@@ -11,24 +11,23 @@
 
 
 
+h1,h2,h3,p{
+    margin-top:0;
+    margin-bottom: 0;
+    }
 
-h1,h2,h3,h4,h5,h6 {
-    margin: 0;
+ul{
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
 }
-
-ul, ol {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
  
-img {
-    display: block;
+img{
+    display:block;
+    max-width: 100%;
+    max-height: 100%;
 }
-
-
-
 
 a {
     text-decoration: none;
@@ -124,6 +123,9 @@ a {
     letter-spacing: 0.02em;
     color: #ffffff;
     max-width: 496px;
+    margin-bottom: 48px;
+    margin-right: auto;
+    margin-left: auto;
 }
 .hero-button {
     background-color: #4D5AE5;
@@ -138,7 +140,11 @@ a {
     min-width: 169px;
     height: 56px;
     border: none;
-    border-radius: 4px; }
+    border-radius: 4px;
+    min-width: 169px;
+    margin-right: auto;
+    margin-left: auto;
+    cursor: pointer; }
 
 .hero-button:hover {
     background-color: #404BBF;}
@@ -294,7 +300,7 @@ a {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-
+    justify-content: center;
 }
 .portfolio-item {
 
