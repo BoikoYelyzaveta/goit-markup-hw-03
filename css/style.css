@@ -16,22 +16,32 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-.header-container{ display: flex;
-}
-.container {
+
     
+}
+.header-container {
+    display: flex;
+    align-items: center;
+margin-bottom: 0;}
+    
+.container { 
     width: 1158px; 
     margin: 0 auto;
     padding: 0 15px; 
 
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .logo-nav {
-    display: flex; 
-     align-items: center; }
+     display: flex; 
+     align-items: center;
+    
+  margin-right: 90px;
+  flex-grow: 12;
+  
+}
 
 .logo-main {
     color: #4d5ae5;
@@ -42,7 +52,10 @@
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase; 
-    margin-right: 76px;  }
+    margin-right: 76px; 
+
+    margin-bottom: 0;
+ }
 
 .dark { color:#2e2f42; }
 
