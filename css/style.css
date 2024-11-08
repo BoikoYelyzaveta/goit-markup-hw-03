@@ -40,8 +40,7 @@
     gap: 40px; }
 
 .header-item {
-    padding-top: 24px;
-    padding-bottom: 24px; }
+    padding: 24px 0; }
 
 .nav-link {
     color: #2e2f42;
@@ -268,7 +267,7 @@
 }
 .portfolio-item {
 
-    width: 384px;
+    width: calc((100% - 48px) / 3);
 }
 .container-img {
     padding: 32px 16px;
@@ -333,7 +332,6 @@
      line-height: 1.17;
      letter-spacing: 0.03em;
      text-transform: uppercase;
-     
      margin-bottom: 16px;
      display: inline-block; 
 }
