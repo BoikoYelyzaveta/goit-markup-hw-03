@@ -41,7 +41,8 @@
     
   margin-right: 90px;
   flex-grow: 12;
-  
+
+  padding: 24px 0;
   
 }
 
@@ -57,6 +58,7 @@
     margin-right: 76px; 
 
     margin-bottom: 16;
+    padding: 24px 0;
  }
 
 .dark { color:#2e2f42; }
@@ -102,6 +104,8 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+
+    padding: 24px 0;
 
     
     
