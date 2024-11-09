@@ -17,11 +17,13 @@
     justify-content: space-between;
     align-items: center;
 
+  
     
 }
 .header-container {
     display: flex;
     align-items: center;
+    
 }
     
 .container { 
@@ -42,7 +44,6 @@
   margin-right: 90px;
   flex-grow: 12;
 
-  padding: 24px 0;
   
 }
 
@@ -58,7 +59,7 @@
     margin-right: 76px; 
 
     margin-bottom: 16;
-    padding: 24px 0;
+    
  }
 
 .dark { color:#2e2f42; }
@@ -68,7 +69,6 @@
     gap: 40px; }
 
 .header-item {
-    padding: 24px 0;
     display: block;
     font-weight: 500;
     font-size: 16px;
@@ -83,6 +83,9 @@
     line-height: 1.5;
     font-size: 16px;
     font-weight: 500;
+
+    padding: 24px 0;
+    display: inline-block;
  }
 
     .nav-link:hover,
@@ -105,9 +108,8 @@
     letter-spacing: 0.02em;
     color: #434455;
 
+    display: inline-block;
     padding: 24px 0;
-
-    
     
 }
 
