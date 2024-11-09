@@ -67,9 +67,8 @@
 
 .header-item {
     padding: 24px 0 24px 0 !important;
-    
-    font-weight: 500;
-display: block;
+
+    display: inline-block;
  }
 
 .nav-link {
