@@ -66,9 +66,13 @@
     gap: 40px; }
 
 .header-item {
-    padding: 24px 0 !important;
-
+    padding: 24px 0;
     display: block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
  }
 
 .nav-link {
