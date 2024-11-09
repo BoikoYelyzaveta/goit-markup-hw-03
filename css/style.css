@@ -56,7 +56,7 @@
     text-transform: uppercase; 
     margin-right: 76px; 
 
-    margin-bottom: 0;
+    margin-bottom: 16;
  }
 
 .dark { color:#2e2f42; }
@@ -66,21 +66,8 @@
     gap: 40px; }
 
 .header-item {
-    padding: 24px 0 24px 0 !important;
+    padding: 24px 0 !important;
 
-    display: inline-block;
-    font-weight: 500;
-
-
-
-    color: #2e2f42;
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    padding: 24px 0;
     display: block;
  }
 
@@ -112,8 +99,7 @@
     letter-spacing: 0.02em;
     color: #434455;
 
-    padding: 24px 0;
-    display: block;
+    
     
 }
 
